@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 90px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 128, 172);
+}
+#mainform{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(97,148,227),rgb(255,255,255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainform>form{
+    height: 290px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#mainform>form label{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mainform>form input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+#mainform>form input:focus{
+    outline:none;
+}
+#btn{
+    height: 40px;
+    background-color: rgb(30, 163, 81);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px white;
+}
+#btn:hover{
+    transform: scale(1,1);
+    cursor: pointer;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+}
+#user{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(97,148,227),rgb(255,255,255));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#card{
+    height: 150px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#card>table>tr>td{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    text-shadow: 2px 2px 5px rgb(65, 88, 163);
+}
+a{
+    height: 30px; 
+    background-color: black;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    line-height: 30px;
+}
+button{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(30, 163, 81);
+    color: rgb(237, 226, 226);
+    font-size: 15px;
+    border-radius: 10px;
+}
